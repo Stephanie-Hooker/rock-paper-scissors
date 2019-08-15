@@ -1,0 +1,29 @@
+.font { 
+	font-family: Rockwell Extra Bold,Rockwell Bold,monospace; 
+}
+.background {
+  background-image: url("olivier-mesnage-S2iJ7J15xr8-unsplash.jpg");
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+background-size: cover;
+}
+
+	
+.btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.btn:hover {
+  background-color: black;
+}
